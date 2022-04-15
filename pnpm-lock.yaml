@@ -165,7 +165,7 @@ importers:
 
   examples/nextjs:
     specifiers:
-      '@testing-library/react': ^12.1.5
+      '@testing-library/react': ^13.1.1
       '@types/node': 17.0.23
       '@types/react': 17.0.44
       '@vitejs/plugin-react': 1.3.0
@@ -180,7 +180,7 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@testing-library/react': 12.1.5_react-dom@17.0.2+react@17.0.2
+      '@testing-library/react': 13.1.1_react-dom@17.0.2+react@17.0.2
       '@types/node': 17.0.23
       '@types/react': 17.0.44
       '@vitejs/plugin-react': 1.3.0
@@ -255,7 +255,7 @@ importers:
       '@mui/lab': '*'
       '@mui/material': ^5.6.1
       '@testing-library/jest-dom': ^5.16.4
-      '@testing-library/react': ^12.1.5
+      '@testing-library/react': ^13.1.1
       '@testing-library/user-event': ^13.5.0
       '@vitest/ui': latest
       date-fns: ^2.28.0
@@ -283,7 +283,7 @@ importers:
       swr: 1.3.0_react@17.0.2
     devDependencies:
       '@testing-library/jest-dom': 5.16.4
-      '@testing-library/react': 12.1.5_react-dom@17.0.2+react@17.0.2
+      '@testing-library/react': 13.1.1_react-dom@17.0.2+react@17.0.2
       '@testing-library/user-event': 13.5.0
       '@vitest/ui': link:../../packages/ui
       date-fns: 2.28.0
@@ -302,7 +302,7 @@ importers:
       '@storybook/testing-library': ^0.0.9
       '@storybook/testing-react': ^1.2.4
       '@testing-library/jest-dom': ^5.16.4
-      '@testing-library/react': ^12.1.5
+      '@testing-library/react': ^13.1.1
       '@types/react': ^17.0.44
       '@types/react-dom': ^17.0.15
       '@vitejs/plugin-react': ^1.3.0
@@ -333,7 +333,7 @@ importers:
       '@storybook/testing-library': 0.0.9_react-dom@17.0.2+react@17.0.2
       '@storybook/testing-react': 1.2.4_59a78c54756836b4c98e8837be0d9046
       '@testing-library/jest-dom': 5.16.4
-      '@testing-library/react': 12.1.5_react-dom@17.0.2+react@17.0.2
+      '@testing-library/react': 13.1.1_react-dom@17.0.2+react@17.0.2
       '@types/react': 17.0.44
       '@types/react-dom': 17.0.15
       '@vitejs/plugin-react': 1.3.0
@@ -349,7 +349,7 @@ importers:
   examples/react-testing-lib:
     specifiers:
       '@testing-library/jest-dom': ^5.16.4
-      '@testing-library/react': ^12.1.5
+      '@testing-library/react': ^13.1.1
       '@testing-library/react-hooks': ^8.0.0
       '@testing-library/user-event': ^13.5.0
       '@types/react': ^17.0.44
@@ -366,7 +366,7 @@ importers:
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
       '@testing-library/jest-dom': 5.16.4
-      '@testing-library/react': 12.1.5_react-dom@17.0.2+react@17.0.2
+      '@testing-library/react': 13.1.1_react-dom@17.0.2+react@17.0.2
       '@testing-library/react-hooks': 8.0.0_b49bddbe4b905ced4713cb857cca91fa
       '@testing-library/user-event': 13.5.0
       '@types/react': 17.0.44
@@ -380,7 +380,7 @@ importers:
   examples/react-testing-lib-msw:
     specifiers:
       '@apollo/client': ^3.5.10
-      '@testing-library/react': ^12.1.5
+      '@testing-library/react': ^13.1.1
       '@testing-library/user-event': ^13.5.0
       '@types/react': ^17.0.44
       '@types/react-dom': ^17.0.15
@@ -398,7 +398,7 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@testing-library/react': 12.1.5_react-dom@17.0.2+react@17.0.2
+      '@testing-library/react': 13.1.1_react-dom@17.0.2+react@17.0.2
       '@testing-library/user-event': 13.5.0
       '@types/react': 17.0.44
       '@types/react-dom': 17.0.15
@@ -4192,7 +4192,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 17.0.21
+      '@types/node': 17.0.23
       '@types/yargs': 15.0.14
       chalk: 4.1.2
     dev: true
@@ -6887,16 +6887,16 @@ packages:
       react-error-boundary: 3.1.4_react@17.0.2
     dev: true
 
-  /@testing-library/react/12.1.5_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-OfTXCJUFgjd/digLUuPxa0+/3ZxsQmE7ub9kcbW/wi96Bh3o/p5vrETcBGfP17NWPGqeYYl5LTRpwyGoMC4ysg==}
+  /@testing-library/react/13.1.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-8mirlAa0OKaUvnqnZF6MdAh2tReYA2KtWVw1PKvaF5EcCZqgK5pl8iF+3uW90JdG5Ua2c2c2E2wtLdaug3dsVg==}
     engines: {node: '>=12'}
     peerDependencies:
-      react: <18.0.0
-      react-dom: <18.0.0
+      react: ^18.0.0
+      react-dom: ^18.0.0
     dependencies:
       '@babel/runtime': 7.17.2
       '@testing-library/dom': 8.11.1
-      '@types/react-dom': 17.0.15
+      '@types/react-dom': 18.0.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
@@ -7214,6 +7214,12 @@ packages:
 
   /@types/react-dom/17.0.15:
     resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
+    dependencies:
+      '@types/react': 17.0.44
+    dev: true
+
+  /@types/react-dom/18.0.1:
+    resolution: {integrity: sha512-jCwTXvHtRLiyVvKm9aEdHXs8rflVOGd5Sl913JZrPshfXjn8NYsTNZOz70bCsA31IR0TOqwi3ad+X4tSCBoMTw==}
     dependencies:
       '@types/react': 17.0.44
     dev: true
